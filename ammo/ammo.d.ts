@@ -161,7 +161,7 @@ declare module Ammo {
         set_m_hitPointWorld(m_hitPointWorld: btVector3): void;
     }
     class btKinematicClosestNotMeRayResultCallback extends ClosestRayResultCallback {
-        constructor(me: btKinematicCharacterController);
+        constructor(me: btCollisionObject);
     }   
     class btConstCollisionObjectArray {
         size(): number;
